@@ -1,0 +1,774 @@
+.stm-eroom-wcproduct {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
+  word-break: break-word; }
+  .stm-eroom-wcproduct .meeting_date_recurring {
+    padding-top: 18px;
+    display: flex;
+    align-items: center; }
+    .stm-eroom-wcproduct .meeting_date_recurring--title {
+      display: block;
+      font-size: 14px;
+      font-weight: 400;
+      color: #fff; }
+    .stm-eroom-wcproduct .meeting_date_recurring--content {
+      font-size: 24px;
+      letter-spacing: -0.24px;
+      line-height: 23px;
+      font-weight: 400; }
+    .stm-eroom-wcproduct .meeting_date_recurring__from {
+      margin-right: 18px; }
+    .stm-eroom-wcproduct .meeting_date_recurring__to {
+      position: relative;
+      padding-left: 44px; }
+      .stm-eroom-wcproduct .meeting_date_recurring__to::before {
+        content: '';
+        width: 25px;
+        height: 17px;
+        background-image: url("https://149550655.v2.pressablecdn.com/wp-content/plugins/eroom-zoom-meetings-webinar-pro//assets/img/arrow-right.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%); }
+  .stm-eroom-wcproduct .recurring_details {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px; }
+    .stm-eroom-wcproduct .recurring_details__count {
+      display: flex;
+      align-items: center;
+      color: #fff;
+      font-size: 18px;
+      letter-spacing: -0.18px;
+      font-weight: 400;
+      line-height: 20px; }
+      .stm-eroom-wcproduct .recurring_details__count span {
+        border-radius: 50%;
+        background-color: #195ec8;
+        min-width: 30px;
+        min-height: 30px;
+        padding: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px; }
+    .stm-eroom-wcproduct .recurring_details__interval {
+      padding-top: 21px;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: -0.16px;
+      line-height: 20px; }
+    .stm-eroom-wcproduct .recurring_details__timezone {
+      padding-top: 2px;
+      color: #fff;
+      opacity: 0.5;
+      font-size: 14px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: -0.14px; }
+  .stm-eroom-wcproduct .stm-meeting-recurring {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #273045;
+    text-transform: none; }
+    @media (max-width: 920px) {
+      .stm-eroom-wcproduct .stm-meeting-recurring {
+        flex-direction: column; } }
+  .stm-eroom-wcproduct .stm-meeting-recurring-title {
+    display: flex;
+    align-items: center;
+    margin-right: 63px; }
+    @media (max-width: 920px) {
+      .stm-eroom-wcproduct .stm-meeting-recurring-title {
+        margin: 10px 0; } }
+    .stm-eroom-wcproduct .stm-meeting-recurring-title::before {
+      content: '';
+      width: 60px;
+      height: 60px;
+      margin-right: 15px;
+      background-image: url("https://149550655.v2.pressablecdn.com/wp-content/plugins/eroom-zoom-meetings-webinar-pro//assets/img/recurring.svg");
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .stm-eroom-wcproduct .stm-meeting-recurring-title-content {
+      display: flex;
+      flex-direction: column; }
+      .stm-eroom-wcproduct .stm-meeting-recurring-title-content--count, .stm-eroom-wcproduct .stm-meeting-recurring-title-content--timezona {
+        font-size: 14px;
+        opacity: 0.5; }
+      .stm-eroom-wcproduct .stm-meeting-recurring-title-content--interval {
+        padding-top: 4px;
+        font-size: 18px;
+        max-width: 240px; }
+      .stm-eroom-wcproduct .stm-meeting-recurring-title-content--timezone {
+        text-transform: uppercase; }
+      .stm-eroom-wcproduct .stm-meeting-recurring-title-content span {
+        color: #273045;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.14px;
+        line-height: normal;
+        text-align: left; }
+  .stm-eroom-wcproduct .stm-eroom-wcproduct__started.stm-eroom-wcproduct__hide .meeting-info-row {
+    justify-content: space-between; }
+  .stm-eroom-wcproduct .stm-eroom-wcproduct__started.stm-eroom-wcproduct__hide .meeting_data {
+    min-width: 230px;
+    padding: 0;
+    border-right: none; }
+  .stm-eroom-wcproduct .stm-eroom-wcproduct__started.stm-eroom-wcproduct__hide .meeting_get_access {
+    display: none; }
+  .stm-eroom-wcproduct .stm-eroom-wcproduct__started .meeting_countdown {
+    padding: 32px 30px 32px 0; }
+  .stm-eroom-wcproduct .stm-eroom-wcproduct__started .stm-meeting-ended {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #273045;
+    text-transform: none; }
+    @media (max-width: 920px) {
+      .stm-eroom-wcproduct .stm-eroom-wcproduct__started .stm-meeting-ended {
+        flex-direction: column; } }
+  .stm-eroom-wcproduct .stm-eroom-wcproduct__started .stm-meeting-ended-title {
+    display: flex;
+    align-items: center;
+    margin-right: 63px; }
+    @media (max-width: 920px) {
+      .stm-eroom-wcproduct .stm-eroom-wcproduct__started .stm-meeting-ended-title {
+        margin: 10px 0; } }
+    .stm-eroom-wcproduct .stm-eroom-wcproduct__started .stm-meeting-ended-title::before {
+      content: '';
+      width: 60px;
+      height: 57px;
+      margin-right: 15px;
+      background-image: url("https://149550655.v2.pressablecdn.com/wp-content/plugins/eroom-zoom-meetings-webinar-pro//assets/img/meeting_ended.svg");
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .stm-eroom-wcproduct .stm-eroom-wcproduct__started .stm-meeting-ended-title-content {
+      display: flex;
+      flex-direction: column; }
+      .stm-eroom-wcproduct .stm-eroom-wcproduct__started .stm-meeting-ended-title-content span {
+        color: #273045;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: -0.14px;
+        text-align: left; }
+        .stm-eroom-wcproduct .stm-eroom-wcproduct__started .stm-meeting-ended-title-content span.stm-meeting-ended--time {
+          font-size: 24px; }
+  .stm-eroom-wcproduct .stm-eroom-wcproduct__started .stm-meeting-ended-file {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none; }
+    .stm-eroom-wcproduct .stm-eroom-wcproduct__started .stm-meeting-ended-file::before {
+      content: '';
+      width: 18px;
+      height: 20px;
+      margin-right: 5px;
+      background-image: url("https://149550655.v2.pressablecdn.com/wp-content/plugins/eroom-zoom-meetings-webinar-pro//assets/img/meeting_attachment.svg");
+      background-size: contain;
+      background-repeat: no-repeat; }
+  @media (max-width: 1120px) {
+    .stm-eroom-wcproduct .curved_box .meeting_get_access {
+      margin-right: auto; } }
+  @media (max-width: 920px) {
+    .stm-eroom-wcproduct .curved_box .meeting-info-row {
+      display: block; }
+    .stm-eroom-wcproduct .curved_box .meeting_countdown {
+      border: none;
+      padding-right: 0; }
+      .stm-eroom-wcproduct .curved_box .meeting_countdown .meeting-info {
+        display: block; }
+      .stm-eroom-wcproduct .curved_box .meeting_countdown .start-title {
+        width: auto;
+        text-align: center; }
+    .stm-eroom-wcproduct .curved_box .meeting_data {
+      border: none; } }
+  .stm-eroom-wcproduct .curved_box {
+    width: 100%;
+    margin-bottom: 70px; }
+  .stm-eroom-wcproduct .image_row__bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden; }
+  .stm-eroom-wcproduct .info_row {
+    background: #ffc800;
+    padding-right: 70px;
+    padding-left: 70px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+    box-sizing: border-box; }
+    @media (max-width: 600px) {
+      .stm-eroom-wcproduct .info_row {
+        padding-right: 30px;
+        padding-left: 30px; } }
+  .stm-eroom-wcproduct .stm-product-record {
+    display: flex;
+    max-width: 770px;
+    margin: 30px auto;
+    width: 100%; }
+  .stm-eroom-wcproduct .stm-product-download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 770px;
+    margin: 30px auto;
+    color: #273045; }
+    .stm-eroom-wcproduct .stm-product-download__file {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+      padding: 10px 0;
+      border-bottom: 1px solid #dddddd;
+      text-transform: uppercase; }
+      .stm-eroom-wcproduct .stm-product-download__file:last-child {
+        border-bottom: none; }
+      .stm-eroom-wcproduct .stm-product-download__file span {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: normal;
+        padding: 6px 0;
+        text-transform: none; }
+      .stm-eroom-wcproduct .stm-product-download__file a {
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: normal;
+        padding: 13px 20px;
+        border-radius: 50px;
+        background-color: #195ec8;
+        text-decoration: none;
+        margin-left: auto; }
+        .stm-eroom-wcproduct .stm-product-download__file a::before {
+          content: '';
+          width: 14px;
+          height: 14px;
+          margin-right: 5px;
+          background-image: url("https://149550655.v2.pressablecdn.com/wp-content/plugins/eroom-zoom-meetings-webinar-pro//assets/img/file_download.svg");
+          background-size: contain;
+          background-repeat: no-repeat; }
+        .stm-eroom-wcproduct .stm-product-download__file a:hover {
+          background-color: #195ec8 !important;
+          color: #fff;
+          text-decoration: none !important; }
+  .stm-eroom-wcproduct .stm-product-join-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 770px;
+    width: 100%;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    margin: 50px auto 0; }
+    @media (max-width: 600px) {
+      .stm-eroom-wcproduct .stm-product-join-block {
+        flex-direction: column; } }
+    .stm-eroom-wcproduct .stm-product-join-block__access h3 {
+      color: #273045;
+      font-size: 24px;
+      line-height: normal;
+      letter-spacing: -0.24px;
+      font-weight: 400;
+      margin: 0;
+      padding: 0; }
+    @media (max-width: 600px) {
+      .stm-eroom-wcproduct .stm-product-join-block__access {
+        margin-bottom: 14px; } }
+    .stm-eroom-wcproduct .stm-product-join-block__password span {
+      color: #333333;
+      font-size: 16px;
+      line-height: normal;
+      font-weight: 400; }
+    .stm-eroom-wcproduct .stm-product-join-block__link a {
+      font-size: 14px;
+      margin: 2px 0 2px 20px;
+      line-height: normal;
+      border-radius: 50px;
+      background-color: #195ec8;
+      padding: 15px 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      border: 2px solid #195ec8; }
+      .stm-eroom-wcproduct .stm-product-join-block__link a:hover {
+        background: 0 0;
+        color: #195ec8;
+        text-decoration: none !important; }
+  .stm-eroom-wcproduct .stm_zoom_product_title_box {
+    display: flex;
+    min-height: 411px;
+    padding: 77px 70px;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(80, 80, 80, 0.5); }
+    @media (max-width: 600px) {
+      .stm-eroom-wcproduct .stm_zoom_product_title_box {
+        padding-right: 30px;
+        padding-left: 30px; } }
+  .stm-eroom-wcproduct .meeting-title-info {
+    max-width: 640px;
+    color: #fff;
+    text-align: left;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 4px; }
+  .stm-eroom-wcproduct .meeting_title {
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: -0.48px;
+    margin: 0;
+    line-height: 60px;
+    color: #fff; }
+    .stm-eroom-wcproduct .meeting_title::before {
+      display: none; }
+    @media (max-width: 920px) {
+      .stm-eroom-wcproduct .meeting_title {
+        font-size: 36px; } }
+  .stm-eroom-wcproduct .meeting_date {
+    margin-top: 30px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    letter-spacing: -0.24px;
+    font-weight: 500; }
+  .stm-eroom-wcproduct .meeting_timezone {
+    opacity: 0.7;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    text-transform: uppercase;
+    font-weight: 500; }
+  .stm-eroom-wcproduct .meeting-image {
+    display: block;
+    max-width: 340px;
+    padding-right: 0;
+    padding-left: 0;
+    max-height: 200px;
+    overflow: hidden;
+    border-radius: 15px; }
+    .stm-eroom-wcproduct .meeting-image img {
+      max-height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+    @media (max-width: 920px) {
+      .stm-eroom-wcproduct .meeting-image {
+        display: none; } }
+  .stm-eroom-wcproduct .meeting-info-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+  .stm-eroom-wcproduct .meeting_countdown {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    padding-top: 23px;
+    padding-right: 30px;
+    padding-bottom: 9px;
+    border-right: 1px solid #fbcf50;
+    text-transform: uppercase; }
+  .stm-eroom-wcproduct .product-meeting_info {
+    width: 100%; }
+  .stm-eroom-wcproduct .meeting-info {
+    display: flex;
+    align-items: center; }
+  .stm-eroom-wcproduct .start-title {
+    width: 106px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.11;
+    color: #273045;
+    margin-right: 18px;
+    margin-bottom: 20px; }
+  .stm-eroom-wcproduct .stm_zooom_countdown {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative; }
+    .stm-eroom-wcproduct .stm_zooom_countdown > span:not(.countDiv) {
+      width: auto !important;
+      height: auto !important;
+      position: relative;
+      display: flex;
+      border-top: 3px solid #676d70;
+      border-bottom: 3px solid #495154;
+      border-radius: 5px;
+      padding-right: 9px;
+      padding-left: 9px;
+      margin-bottom: 20px; }
+      .stm-eroom-wcproduct .stm_zooom_countdown > span:not(.countDiv)::before, .stm-eroom-wcproduct .stm_zooom_countdown > span:not(.countDiv)::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        z-index: 10;
+        bottom: 0;
+        left: 0; }
+      .stm-eroom-wcproduct .stm_zooom_countdown > span:not(.countDiv)::before {
+        background-color: #525b5f;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px; }
+      .stm-eroom-wcproduct .stm_zooom_countdown > span:not(.countDiv)::after {
+        background-color: #3b4448;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px; }
+      @media (max-width: 450px) {
+        .stm-eroom-wcproduct .stm_zooom_countdown > span:not(.countDiv) {
+          padding-right: 2px;
+          padding-left: 2px; } }
+    .stm-eroom-wcproduct .stm_zooom_countdown .countDiv {
+      width: 20px;
+      position: relative;
+      opacity: 1; }
+      .stm-eroom-wcproduct .stm_zooom_countdown .countDiv::before, .stm-eroom-wcproduct .stm_zooom_countdown .countDiv::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        z-index: 10;
+        border-radius: 50%;
+        left: 50%;
+        margin-left: -2px; }
+      .stm-eroom-wcproduct .stm_zooom_countdown .countDiv::before {
+        top: 27px;
+        background-color: #333; }
+      .stm-eroom-wcproduct .stm_zooom_countdown .countDiv::after {
+        top: 41px;
+        background-color: #414b4f; }
+    .stm-eroom-wcproduct .stm_zooom_countdown .countdown_label {
+      font-size: 10px !important;
+      position: absolute;
+      top: 100% !important;
+      bottom: auto !important;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      color: #273045 !important;
+      font-weight: 500;
+      margin-top: 6px;
+      line-height: normal; }
+    .stm-eroom-wcproduct .stm_zooom_countdown .position {
+      height: 62px !important;
+      width: 22px !important;
+      position: relative;
+      z-index: 11;
+      margin: 0; }
+      @media (max-width: 600px) {
+        .stm-eroom-wcproduct .stm_zooom_countdown .position {
+          font-size: 27px !important;
+          line-height: 50px !important;
+          height: 50px !important; } }
+    .stm-eroom-wcproduct .stm_zooom_countdown .digit {
+      font-size: 34px !important;
+      line-height: 62px !important;
+      height: 62px !important;
+      width: inherit !important;
+      color: #fff !important;
+      padding: 0 !important;
+      font-weight: 700;
+      text-align: center !important;
+      position: absolute;
+      left: 0; }
+      @media (max-width: 600px) {
+        .stm-eroom-wcproduct .stm_zooom_countdown .digit {
+          font-size: 27px !important;
+          line-height: 50px !important;
+          height: 50px !important; } }
+  .stm-eroom-wcproduct .meeting_info__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500; }
+    .stm-eroom-wcproduct .meeting_info__item .info_tit {
+      color: rgba(51, 51, 51, 0.7);
+      font-weight: 400;
+      padding-right: 10px; }
+    .stm-eroom-wcproduct .meeting_info__item .info_val {
+      color: #273045;
+      font-weight: 700;
+      display: flex;
+      align-items: center; }
+      .stm-eroom-wcproduct .meeting_info__item .info_val ins {
+        order: 1;
+        padding-right: 6px;
+        text-decoration: none; }
+      .stm-eroom-wcproduct .meeting_info__item .info_val del {
+        order: 2;
+        font-weight: 400; }
+  .stm-eroom-wcproduct .meeting_data {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    min-width: 260px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-right: 1px solid #fbcf50; }
+    .stm-eroom-wcproduct .meeting_data .meeting-info {
+      display: block; }
+  .stm-eroom-wcproduct .meeting_get_access {
+    margin-left: auto;
+    text-align: center;
+    padding: 12px 0; }
+    .stm-eroom-wcproduct .meeting_get_access .single_add_to_cart_button {
+      border-radius: 50px;
+      background-color: #195ec8;
+      padding: 16px 30px 17px 30px;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.42px;
+      line-height: normal;
+      text-decoration: none !important;
+      color: #fff;
+      text-transform: uppercase;
+      border: none; }
+      .stm-eroom-wcproduct .meeting_get_access .single_add_to_cart_button:hover, .stm-eroom-wcproduct .meeting_get_access .single_add_to_cart_button:active, .stm-eroom-wcproduct .meeting_get_access .single_add_to_cart_button:focus {
+        background-color: #195ec8 !important;
+        color: #fff !important;
+        text-decoration: none !important; }
+    .stm-eroom-wcproduct .meeting_get_access.purchased .single_add_to_cart_button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #3bbc14; }
+      .stm-eroom-wcproduct .meeting_get_access.purchased .single_add_to_cart_button::before {
+        content: '';
+        width: 18px;
+        height: 18px;
+        margin-right: 13px;
+        background-image: url("https://149550655.v2.pressablecdn.com/wp-content/plugins/eroom-zoom-meetings-webinar-pro//assets/img/purchased.svg");
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .stm-eroom-wcproduct .meeting_get_access.purchased .single_add_to_cart_button:hover, .stm-eroom-wcproduct .meeting_get_access.purchased .single_add_to_cart_button:active, .stm-eroom-wcproduct .meeting_get_access.purchased .single_add_to_cart_button:focus {
+        background-color: #3bbc14 !important;
+        color: #fff !important;
+        text-decoration: none !important; }
+  .stm-eroom-wcproduct .product-host {
+    max-width: 770px;
+    width: 100%;
+    margin: 62px auto 0; }
+    .stm-eroom-wcproduct .product-host h3 {
+      font-size: 30px;
+      font-weight: 500;
+      margin: 0 0 30px;
+      line-height: normal; }
+    .stm-eroom-wcproduct .product-host .host_user {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      width: auto;
+      max-width: 100%; }
+      .stm-eroom-wcproduct .product-host .host_user .user_avatar {
+        width: auto !important; }
+      .stm-eroom-wcproduct .product-host .host_user .user_avatar a {
+        display: flex;
+        align-items: center;
+        max-width: 80px;
+        max-height: 80px;
+        overflow: hidden; }
+      .stm-eroom-wcproduct .product-host .host_user img {
+        display: block;
+        max-width: 80px;
+        width: auto;
+        height: auto;
+        border-radius: 50%; }
+      .stm-eroom-wcproduct .product-host .host_user .user_info {
+        width: calc(100% - 80px) !important;
+        padding-left: 20px;
+        display: block; }
+        .stm-eroom-wcproduct .product-host .host_user .user_info a {
+          display: block;
+          text-decoration: none;
+          color: #273045;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: normal;
+          margin-bottom: 5px; }
+        .stm-eroom-wcproduct .product-host .host_user .user_info .user-status {
+          font-size: 14px;
+          line-height: 18px;
+          color: rgba(51, 51, 51, 0.5);
+          text-transform: uppercase; }
+  .stm-eroom-wcproduct .contact_host {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 70px 0 !important; }
+    .stm-eroom-wcproduct .contact_host .contact_text {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #195ec8;
+      padding: 15px 20px;
+      width: 100%;
+      color: #fff;
+      font-size: 20px;
+      letter-spacing: -0.2px;
+      line-height: 60px; }
+      .stm-eroom-wcproduct .contact_host .contact_text .contact_title {
+        display: inherit;
+        align-items: inherit;
+        font-size: inherit;
+        font-weight: 500;
+        line-height: normal; }
+        .stm-eroom-wcproduct .contact_host .contact_text .contact_title img {
+          width: 45px !important;
+          color: #fff;
+          margin-right: 16px;
+          -webkit-filter: brightness(2);
+                  filter: brightness(2); }
+      .stm-eroom-wcproduct .contact_host .contact_text .contact_link {
+        font-size: 14px;
+        border-radius: 50px;
+        background-color: #fff;
+        color: #195ec8;
+        font-weight: 700;
+        letter-spacing: 0.42px;
+        line-height: normal;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 15px 42px; }
+  .stm-eroom-wcproduct .stm-eroom-wctabs {
+    width: 100%; }
+  .stm-eroom-wcproduct .woocommerce-tabs {
+    max-width: 770px;
+    margin: 0 auto; }
+  .stm-eroom-wcproduct .contact_popup {
+    position: fixed;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: 100vh !important;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none; }
+    .stm-eroom-wcproduct .contact_popup.active {
+      display: block; }
+    .stm-eroom-wcproduct .contact_popup .overlay_popup {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); }
+    .stm-eroom-wcproduct .contact_popup form {
+      padding: 50px 85px;
+      position: absolute;
+      display: block;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      background-color: #fff;
+      border-radius: 10px; }
+      .stm-eroom-wcproduct .contact_popup form .close_popup {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #eee;
+        color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer; }
+        .stm-eroom-wcproduct .contact_popup form .close_popup i {
+          font-size: 18px; }
+      .stm-eroom-wcproduct .contact_popup form h2 {
+        font-size: 30px;
+        margin: 0 0 30px; }
+      .stm-eroom-wcproduct .contact_popup form button, .stm-eroom-wcproduct .contact_popup form input, .stm-eroom-wcproduct .contact_popup form textarea {
+        width: 100%; }
+      .stm-eroom-wcproduct .contact_popup form input, .stm-eroom-wcproduct .contact_popup form textarea {
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+        outline: 0; }
+      .stm-eroom-wcproduct .contact_popup form .response {
+        font-size: 14px; }
+
+.user_title_box {
+  background-color: #eef1f7;
+  padding: 70px 0;
+  margin-bottom: 70px; }
+  .user_title_box .container {
+    width: 1200px;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    .user_title_box .container .product-host .host_user {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%; }
+      .user_title_box .container .product-host .host_user .user_avatar {
+        padding-right: 30px; }
+      .user_title_box .container .product-host .host_user h1 {
+        margin: 0 0 20px;
+        font-size: 36px;
+        line-height: 36px; }
+
+.author_meetings {
+  width: 1200px;
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px; }
+
+.user_title_box {
+  background-color: #eef1f7;
+  padding: 70px 0;
+  margin-bottom: 70px; }
+  .user_title_box .container {
+    width: 1200px;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    .user_title_box .container .product-host .host_user {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%; }
+      .user_title_box .container .product-host .host_user .user_avatar {
+        padding-right: 30px; }
+      .user_title_box .container .product-host .host_user h1 {
+        margin: 0 0 20px 0;
+        font-size: 36px;
+        line-height: 36px; }
+
+.author_meetings {
+  width: 1200px;
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px; }

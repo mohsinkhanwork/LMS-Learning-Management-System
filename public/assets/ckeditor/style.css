@@ -1,0 +1,8 @@
+.cke_inner.cke_reset {
+    border: none !important;
+    box-shadow: 9px 6px 10px grey;
+}
+
+.cke_chrome {
+    border: none !important;
+}

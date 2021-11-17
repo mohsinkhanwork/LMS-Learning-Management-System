@@ -1,0 +1,437 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+    text-decoration: none;
+}
+section{
+    padding: 60px 0;
+}
+
+/* hero-section */
+.hero-section{
+    background: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)),url(img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 130px 0;
+    box-shadow: 0px 0px 34px 0px rgb(107 107 107 / 50%);
+    background-attachment: fixed;
+}
+.hero-section p{
+    color: #e22fe2;
+    font-size: 58px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.1em;
+}
+.hero-section .lead{
+    color: #4054b2;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 80px;
+}
+.hero-section .btn{
+    margin-top: 50px;
+    color: #4054b2;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 50px;
+    padding: 15px 50px;
+}
+.hero-section .btn:hover{
+    background-color: #D34CD3;
+    color: #fff;
+}
+/* icon-section */
+.icon-section span{
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 3px solid #4054B2;
+    transition: all 0.3s;
+}
+.icon-section span i{
+    font-size: 33px;
+    color: #4054B2;
+}
+.icon-section span:hover{
+    background: #4054B2;
+}
+.icon-section span:hover i{
+    color: #fff;
+}
+.icon-section h5{
+    font-size: 21px;
+    line-height: 34px;
+    letter-spacing: -0.3px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #4c4c4c;
+}
+.icon-section p{
+    color: #4c4c4c;
+    font-weight: 300;
+}
+/* price-section */
+.price-seection{
+    background-color: #eeeeee;
+}
+.price-seection>h1{
+    color: #4c4c4c;
+    font-size: 39px;
+    font-weight: 400;
+    text-align: center;
+}
+.price-seection>p{
+    text-align: center;
+    color: #878787;
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.price-seection .card{
+    box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    padding: 70px 50px;
+    background-color: #ffffff;
+    color: #4c4c4c;
+    border-radius: 10px;
+}
+.price-seection .card h1{
+    font-size: 65px;
+    font-weight: 700; 
+}
+.price-seection .card p{
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 5.9px;
+    margin-bottom: 50px;
+}
+.price-seection .card hr{
+    text-align: center;
+    height: 2px;
+    width: 20%;
+    background-color: #4c4c4c;
+    margin: auto;
+}
+.price-seection .card ul{
+    text-align: left;
+    margin-top: 50px;
+    padding: 0;
+    margin-left: 50px;
+}
+.price-seection .card ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2.4em;
+    color: #666666;
+}
+.price-seection .card ul li::before{
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+    margin-right: 10px;
+}
+.price-seection .card .btn{
+    display: inline-block;
+    margin-top: 50px;
+    color: #C151E2;
+    background-color: #ffffff;
+    border: 3px solid #C151E2;
+    border-radius: 50px;
+    padding: 15px 40px;
+}
+.price-seection .card .btn:hover{
+    color: #fff;
+    background-color: #C151E2;
+    border: 3px solid #C151E2;
+}
+.price-seection .mid-card{
+    color: #fff;
+    background-color: #C151E2;
+}
+.price-seection .mid-card ul li{
+    color: #fff;
+}
+.price-seection .mid-card hr{
+    background-color: #fff;
+}
+.price-seection .mid-card .btn:hover{
+    border: 3px solid #fff;
+}
+
+
+
+/* novel-section */
+.novel-section{
+    padding: 180px 0;
+    background: linear-gradient(rgba(80, 73, 146, 0.8),rgba(80, 73, 146, 0.8)),url(img/bg-btm.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+.novel-section a .btn{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background-color: #22b3a4;
+    border: 3px solid #22b3a4;
+    border-radius: 50px;
+    padding: 12px 50px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+}
+.novel-section a .btn:hover{
+    background-color: transparent;
+    border: 3px solid #fff;
+}
+.novel-section p{
+    font-size: 16px;
+    font-weight: 100;
+    margin: 30px 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.9em;
+}
+.novel-section h1{
+    font-size: 54px;
+    line-height: 1.1em;
+    letter-spacing: -1.4px;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+}
+.novel-section b{
+    font-weight: 700;
+}
+/* profit section */
+.profit-section span{
+    display: inline-block;
+    padding: 20px;
+    background-color: #504992;
+}
+.profit-section span i{
+    font-size: 23px;
+    color: #fff;
+}
+.profit-section h1{
+    font-size: 41px;
+    line-height: 0.5em;
+    letter-spacing: -0.8px;
+    color: #474545;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.profit-section p{
+    color: #726f6f;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    line-height: 2.2em;
+    padding-right: 50px;
+}
+/* testimonial section */
+.test-section{
+    background-color: #eeeeee;
+}
+.test-section p{
+    color: #4c4c4c;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.9em;
+    font-family: "Open Sans";
+}
+.test-section img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.test-section b{
+    color: #4054b2;
+    font-size: 14px;
+    font-weight: 600;
+}
+.test-section span{
+    color: #afafaf;
+    font-size: 13px;
+    margin-left: 15px;
+}
+/* faq-section */
+.faq-section h1 , .test-section>h1{
+    text-align: center;
+    color: #4054b2;
+    font-size: 39px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+#accordion .panel{
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+#accordion .panel-heading{
+    padding: 0;
+}
+#accordion .panel-title a{
+    display: block;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.8em;
+    color: #000;
+    background: #FBFBFB;
+    border: none;
+    border-bottom: 1px solid #06cde7;
+    padding: 15px 20px 15px 47px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+#accordion .panel-title a.collapsed{
+    border-bottom-color: #ddd;
+    color: #888;
+}
+#accordion .panel-title a:before{
+    content: "\f0d7";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 18px;
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    transition: all 0.3s ease 0s;
+}
+#accordion .panel-title a.collapsed:before{
+    content: "\f0da";
+}
+#accordion .panel-body{
+    font-size: 15px;
+    color: #8c8c8c;
+    line-height: 25px;
+    background: #fff;
+    border: none;
+    padding: 14px 20px;
+}
+#collapseOne h1{
+    line-height: 50px;
+    letter-spacing: -2.2px;
+    font-size: 45px;
+    color: #273044;
+    text-align: left;
+    font-weight: 700;
+}
+#collapseOne h2{
+    line-height: 42px;
+    font-size: 36px;
+    color: #273044;
+    text-align: left;
+    font-weight: 700;
+}
+.faq-section p{
+    margin: 30px 0;
+    font-size: 14px;
+    color: #000;
+}
+/* media query */
+
+
+/* 960px */
+@media only screen and (max-width:960px) {
+    section{
+        padding: 30px 0;
+    }
+    .hero-section{
+        padding: 30px;
+        text-align: center;
+    }
+    .hero-section p {
+        font-size: 40px;
+    }
+    .profit-section{
+        text-align: center;
+    }
+    .profit-section h1 {
+        margin: 30px 0;
+    }
+    .profit-section p {
+        padding-right: 0px;
+    }
+    .hero-section .lead{
+        margin-left: 0px;
+    }
+}
+/* 800px */
+@media only screen and (max-width:800px) {
+    .test-section .row{
+        justify-content: center;
+        text-align: center;
+    }
+    .icon-section{
+        text-align: center;
+    }
+}
+/* 600px */
+@media only screen and (max-width:600px) {
+    .hero-section p {
+        font-size: 40px;
+    }
+    .hero-section .btn {
+        margin: 0;
+        padding: 15px 50px;
+        font-size: 14px;
+    }
+    .price-seection>h1 {
+        font-size: 30px;
+    }
+    .price-seection>p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .test-section>h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .faq-section h1, .test-section>h1 {
+        font-size: 30px;
+    }
+    #accordion .panel-title a {
+        font-size: 16px;
+    }
+    #collapseOne h1 {
+        font-size: 30px;
+        line-height: 20px;
+    }
+    .faq-section p {
+        margin: 10px 0;
+    }
+    #collapseOne h2 {
+        line-height: 42px;
+    }
+    .novel-section h1 {
+        font-size: 40px;
+    }
+    .novel-section {
+        text-align: center;
+    }
+    
+    .profit-section h1 {
+        font-size: 33px;
+    }
+    .profit-section p {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+}

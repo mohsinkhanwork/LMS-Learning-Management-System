@@ -1,0 +1,73 @@
+
+.noti-body{
+    background-color: #CECECE;
+    font-family: 'Nunito', sans-serif;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px 0px 10px;
+}
+/* title row */
+.zoom-noti{
+    background-color: #fff;
+    max-width: 22%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px 5px 0px 0px;
+    padding-bottom: 30px;
+}
+.zoom-img{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+.zoom-img img{
+    max-width: 100%;
+}
+.zoom-noti-title p{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.zoom-noti-title{
+    border-bottom: 1px solid #70707070;
+    justify-content: space-between;
+}
+.zoom-noti .fa-times{
+    color: #000000cc;
+}
+/* pending-section */
+.pending{
+    padding: 10px;
+    align-items: center;
+}
+.pending i{
+    margin: 0 10px;
+}
+.pending>p{
+    font-size: 14px;
+    font-weight: 700;
+}
+/* task and course */
+.task{
+    padding: 5px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.task>p{
+    font-size: 13px;
+}
+.course-btn{
+    border: none;
+    outline: none;
+    background-color: #0065CD;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+.course-btn a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+}

@@ -1,0 +1,233 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+    text-decoration: none;
+}
+/* top section */
+.top-section{
+    padding: 5% 10% 0% 10%;
+}
+.top-section .top-big-txt{
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 55px;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: -2px;
+    margin: 0;
+    padding-right: 20px;
+}
+b{
+    font-weight: 700;
+}
+.top-section .top-mini-txt{
+    font-weight: 200;
+    padding-right: 75px;
+}
+/* signup section */
+.signup-section{
+    background-color: #E7E7E7;
+    padding: 150px 0;
+}
+.signup-section h1{
+    color: #0C0B0B;
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: center;
+}
+.signup-section p{
+    padding: 30px 100px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 2em;
+}
+.signup-section input{
+    padding: 6px 12px;
+    min-height: 45px;
+    min-width: 260px;
+    margin-right: 15px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #100F0F;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.signup-section input[type="submit"]{
+    background-color: #ffffff;
+    color: #000000;
+    border: 3px dotted #000000;
+    transition: .2s;
+}
+.signup-section input[type="submit"]:hover{
+    transform: scale(1.1);
+    background-color: #CE00C1;
+    border-color: #fff;
+}
+/* banner-section */
+.banner-section{
+    padding: 80px 0;
+}
+.banner-section .left-banner p{
+    font-weight: 700;
+    font-size: 36px;
+    color: #ECE4E4;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+.left-banner{
+    background-color: #CB48E2;
+    padding: 70px 100px;
+}
+.right-banner p{
+    color: #002949;
+    font-size: 43px;
+    font-weight: 700;
+    letter-spacing: -1.6px;
+    line-height: 1;
+    padding-right: 30px;
+}
+.right-banner hr{
+    background-color: #e0c387;
+    width: 10%;
+    height: 3px;
+    float: left;
+    display: block;
+}
+.right-banner span{
+    float: right;
+    color: #273044;
+    font-size: 14px;
+    padding-right: 80px;
+    margin-top: 20px;
+}
+/* talk section */
+.talk-section h2{
+    font-weight: 700;
+    font-size: 36px;
+}
+.talk-section .lead{
+    color:#273044;
+    font-weight: 400;
+}
+.talk-section .lead a{
+    color: #195ec8;
+}
+/* school section */
+.school-section{
+    padding: 100px 0;
+}
+.left-school a{
+    display: inline-block;
+}
+.left-school a i{
+    color: #3D4E60;
+    font-size: 20px;
+}
+.right-school h1{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.right-school{
+    text-align: justify;
+}
+.right-school h2{
+    font-size: 36px;
+    color: #273044;
+    font-weight: 700;
+}
+.right-school p{
+    margin: 20px 0;
+    color: #3D4E60;
+    font-weight: 300;
+}
+.right-school ul{
+    padding: 0 0 0 20px;
+}
+.right-school ul li{
+    margin-bottom: 15px;
+    color: #3D4E60;
+    font-weight: 300;
+}
+.right-school .lead{
+    margin: 30px 0;
+}
+
+/* media query */
+
+/* 1024px */
+@media only screen and (max-width:1024px) {
+    .top-section .top-big-txt {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .top-section .top-mini-txt {
+        padding-right: 0;
+    }
+    .signup-section p {
+        padding: 30px 0px;
+    }
+    .signup-section p {
+        padding: 20px 0px;
+    }
+    .signup-section {
+        padding: 100px 0;
+    }
+    .left-banner {
+        padding: 70px 50px;
+    }
+}
+
+
+/* 960px */
+@media only screen and (max-width:960px) {
+    .top-section .top-big-txt {
+        font-size: 40px;
+        padding-right: 0;
+    }
+    .signup-section h1 {
+        font-size: 35px;
+    }
+    .signup-section {
+        padding: 100px 0;
+    }
+    .left-banner {
+        padding: 50px;
+        margin-bottom: 20px;
+    }
+    .right-banner p {
+        text-align: center;
+        padding-right: 0;
+    }
+    .right-banner span {
+        padding-right: 0;
+        text-align: center;
+    }
+    .right-banner hr {
+        float: none;
+    }
+    .banner-section {
+        padding: 50px 0;
+    }
+    .school-section {
+        padding: 30px 0;
+    }
+    .left-school{
+        text-align: center;
+    }
+    .right-school {
+        text-align: center;
+    }
+    .right-school h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .right-school ul {
+        padding: 0px 0 0 70px;
+        text-align: left;
+    }
+}
