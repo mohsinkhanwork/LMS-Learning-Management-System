@@ -183,7 +183,7 @@ class CoursesController extends Controller
         }
         
         }
-<<<<<<< HEAD
+
 
          $topics = Topic::with('lesson.course')->where('courses_id',  $course->id)->where('published', 1)->get();
          
@@ -194,13 +194,7 @@ class CoursesController extends Controller
         $pildora_categories = Category::with('courses')->where('status', '=', 1)->where('name', 'Píldoras')->first();
 
         return view( $this->path.'.courses.course', compact('course', 'pildora_categories' , 'initial_course_level', 'Intermedio_course_level', 'Avanzado_course_level' , 'related_courses' , 'topics' , 'user', 'courses', 'lesson', 'noti_id' , 'purchased_cours', 'ExtraAssignment' , 'purchased_course', 'recent_news', 'course_rating','categories', 'completed_lessons','total_ratings','is_reviewed','lessons','continue_course'));
-=======
 
-         $topics = Topic::with('lesson.course')->where('courses_id',  $course->id)->where('published', 1)->get();
-         
-
-        return view( $this->path.'.courses.course', compact('course', 'related_courses' , 'topics' , 'user', 'courses', 'lesson', 'noti_id' , 'purchased_cours', 'ExtraAssignment' , 'purchased_course', 'recent_news', 'course_rating','categories', 'completed_lessons','total_ratings','is_reviewed','lessons','continue_course'));
->>>>>>> 01c8e8b33f7e541cac16bd5284d6f96fd11d0959
     }
 
 
