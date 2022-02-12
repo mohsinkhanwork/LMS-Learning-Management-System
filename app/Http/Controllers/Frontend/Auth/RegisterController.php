@@ -20,13 +20,10 @@ use Illuminate\Support\Str;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\Rules\Password;
-<<<<<<< HEAD
 use Illuminate\Support\Facades\Mail;
 use App\Notifications\leadPassword;
 use Notification;
 use Illuminate\Support\Facades\Make;
-=======
->>>>>>> 01c8e8b33f7e541cac16bd5284d6f96fd11d0959
 
 
 /**

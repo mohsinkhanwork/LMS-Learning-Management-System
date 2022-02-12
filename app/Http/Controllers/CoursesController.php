@@ -88,7 +88,7 @@ class CoursesController extends Controller
        if($purchased_cours != '') {
             $lesson = Lesson::with('course')->where('course_id', $purchased_cours->id)->first();
         }
-         }
+        }
 
         $initial_course_level = Course::where('published', 1)->where('level', 'Inicial')->get();
         $Intermedio_course_level = Course::where('published', 1)->where('level', 'Intermedio')->get();
@@ -137,7 +137,7 @@ class CoursesController extends Controller
         $lessons = $course->courseTimeline()->orderby('sequence','asc')->get();
         $courses = Course::withoutGlobalScope('filter')->canDisableCourse()->where('published', 1)->where('popular', '=', 1)->inRandomOrder()->take(3)->get();
         
-    $related_courses = Course::withoutGlobalScope('filter')->canDisableCourse()->where('published', 1)->orderBy('id', 'desc')->get()->take(3);
+        N $related_courses = Course::withoutGlobalScope('filter')->canDisableCourse()->where('published', 1)->orderBy('id', 'desc')->get()->take(3);
         // dd($related_courses);
 
 
@@ -160,7 +160,7 @@ class CoursesController extends Controller
         }
         $categories = Category::where('status', '=', 1)->get();
 
-       $purchased_cours = '';
+        $purchased_cours = '';
         $id = array();
         $lesson = '';
         $noti_id = array();
@@ -185,7 +185,7 @@ class CoursesController extends Controller
         }
 
 
-         $topics = Topic::with('lesson.course')->where('courses_id',  $course->id)->where('published', 1)->get();
+        $topics = Topic::with('lesson.course')->where('courses_id',  $course->id)->where('published', 1)->get();
          
         $initial_course_level = Course::where('published', 1)->where('level', 'Inicial')->get();
         $Intermedio_course_level = Course::where('published', 1)->where('level', 'Intermedio')->get();
